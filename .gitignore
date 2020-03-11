@@ -117,3 +117,5 @@ fabric.properties
 .idea/modules.xml
 .idea/vcs.xml
 zaawansowana-java-solid.iml
+clean_code_solid.iml
+.idea/$PRODUCT_WORKSPACE_FILE$
