@@ -1,21 +1,6 @@
 package pl.zzpj2020.solid.isp.contactbook.solution;
 
-class Emailer {
-	
-	
-	public void sendMessage(EmailableContact emailable, String subject, String body) {
-		
-		String emailAddress = emailable.getEmailAddress();
-		
-		sendEmail(emailAddress, subject, body);
-	}
+public interface Emailer {
 
-	
-	
-	
-	
-	private void sendEmail(String emailAddress, String subject, String body) {
-		// TODO Auto-generated method stub
-		
-	}
+	void sendEmail(Emailable emailable, String subject, String body);
 }
